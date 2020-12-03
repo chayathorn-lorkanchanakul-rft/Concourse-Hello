@@ -19,4 +19,4 @@ jobs:
   plan:
   - get: resource1
   - task: task-hello-world
-    file: resource1/task-hello-world/task_hello_world.yml
+    file: 'resource1/Labs/02-Pipeline with Resources and Tasks/task_hello_world.yml'
